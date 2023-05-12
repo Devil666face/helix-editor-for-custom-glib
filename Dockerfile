@@ -1,4 +1,4 @@
-FROM ubuntu:20.04 AS builder
+FROM debian:10 AS builder
 
 ARG VERSION='23.03'
 
