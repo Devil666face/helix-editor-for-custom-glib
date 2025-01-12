@@ -1,6 +1,6 @@
 FROM debian:10 AS builder
 
-ARG VERSION='23.03'
+ARG VERSION='25.01'
 
 # Installing build essential tools
 RUN apt update && apt install -y git curl build-essential
